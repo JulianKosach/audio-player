@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Audio Player HTML5</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="audio-player">
+		<span class="artist">Artist</span>
+		<span class="title">Title</span>
+		<div class="progress-bar">
+			<span class="progress"></span>
+		</div>
+		<span class="current-duration">0:00</span>
+		<span class="duration">0:00</span>
+		<input class="volume" type="range" min="0" max="100" value="40">
+		<button class="prev"></button>
+		<button class="play"></button>
+		<button class="pause"></button>
+		<button class="next"></button>
+		<button class="list-btn"></button>
+		<ul class="playlist">
+			<li data-song="Imagine_Dragons_-_Radioactive.mp3"></li>
+			<li data-song="Placebo_-_Buttle_for_the_sun.mp3"></li>
+			<li data-song="Gary_Jules_-_Mad_World.mp3"></li>
+			<li data-song="Linkin_Park_-_Numb.mp3"></li>
+			<li data-song="Nickelback_-_How_You_Remind_M.mp3"></li>
+			<li data-song="Nine_Lashes_-_Adrenaline.mp3"></li>
+			<li data-song="Placebo_-_This_Picture.mp3"></li>
+			<li data-song="Red_Hot_Chilli_Peppers_-_Otherside.mp3"></li>
+			<li data-song="Sum41_-_Some_Say.mp3"></li>
+		</ul>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
